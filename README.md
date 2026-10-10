@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://files.catbox.moe/u4zk4h.jpeg" width="100%" alt="Banner Principal"/>
-</p>
-
 <h1 align="center">🛰️ SIGNAL RADAR - TACTICAL NAVIGATION</h1>
 
 <p align="center">
@@ -13,6 +9,12 @@
   <img src="https://img.shields.io/badge/STATUS-Open%20Source-00FF66?style=for-the-badge&logo=github">
   <img src="https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge">
 </p>
+
+
+<p align="center">
+  <img src="https://files.catbox.moe/u4zk4h.jpeg" width="100%" alt="Banner Principal"/>
+</p>
+
 
 ---
 
