@@ -1,30 +1,69 @@
-🛰️ Signal Radar - Navegación Táctica 3D (Android / Kotlin)
-Aplicación Android de brújula y navegación táctica de alta precisión con renderizado 3D, integración de sensores de presión atmosférica y gestión avanzada de waypoints. Diseñada bajo una estética oscura cyberpunk.
 <p align="center">
-<img src="[https://img.shields.io/badge/Status-Open%20Source-00FF66?style=for-the-badge&logo=github](https://img.shields.io/badge/Status-Open%20Source-00FF66?style=for-the-badge&logo=github)" alt="Open Source">
-<img src="[https://img.shields.io/badge/Kotlin-Android-purple?style=for-the-badge&logo=kotlin](https://img.shields.io/badge/Kotlin-Android-purple?style=for-the-badge&logo=kotlin)" alt="Kotlin">
-<img src="[https://img.shields.io/badge/License-MIT-blue?style=for-the-badge](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)" alt="License">
+  <img src="https://files.catbox.moe/u4zk4h.jpeg" width="100%" alt="Banner Principal"/>
 </p>
-📌 ¿Qué es Signal Radar?
-Signal Radar es una herramienta de orientación y seguimiento de campo desarrollada en Kotlin para Android. Está pensada para situaciones donde la precisión milimétrica y la lectura rápida de datos (como altitud barométrica y rumbo exacto) son vitales.
-La aplicación elimina interfaces saturadas o técnicas confusas, ofreciendo un entorno visual limpio, minimalista y completamente en español.
-🚀 Características Principales
-Proyección 3D de Waypoints (Pin con Mástil Vertical): Los puntos de referencia no se muestran planos; se proyectan en un espacio tridimensional con un pin elevado que facilita su ubicación visual rápida.
-Sensor Barométrico Nativo (Sensor.TYPE_PRESSURE): Captura de la altitud sobre el nivel del mar en tiempo real, reflejando variaciones de altura al instante de forma mucho más sensible que el GPS convencional.
-Control de Zoom por Gestos (ScaleGestureDetector): Adiós a los botones estorbosos en pantalla. El zoom se realiza directamente pellizcando el radar, manteniendo el anillo exterior de grados fijo mientras se ajusta la rejilla interna.
-Trazado de Camino Preciso (Breadcrumb Trail): Grabación de rutas con líneas delgadas, estilizadas y suavizadas para evitar manchas o saltos imprecisos en la interfaz.
-Ficha Técnica en Español Claro: Cada waypoint guardado almacena y muestra de forma legible:
-Nombre e icono personalizado.
-Altitud barométrica real.
-Distancia exacta (en metros o kilómetros).
-Rumbo en grados y punto cardinal en español (ej. 304° NO - Noroeste).
-Desnivel y coordenadas geográficas.
-🛠️ Stack Tecnológico
-Lenguaje: Kotlin
-Interfaz de Usuario: Canvas API personalizada para renderizado 3D y gestos táctiles.
-Base de Datos: Room Database para persistencia local de waypoints y trayectos.
-Sensores: Sensor Framework de Android (SensorManager, acelerómetro, magnetómetro y barómetro).
-📋 Licencia y Autoría
-Este proyecto es de código abierto bajo los términos de la Licencia MIT, lo que significa que puedes usarlo, modificarlo y compartirlo libremente.
-Creado y Desarrollado por: JAHSEH (@knzz)
-Portafolio Web: codebuds.site
+
+<h1 align="center">🛰️ SIGNAL RADAR - TACTICAL NAVIGATION</h1>
+
+<p align="center">
+  <b>Aplicación Android de navegación táctica y brújula 3D de alta precisión.</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/KOTLIN-Android-purple?style=for-the-badge&logo=kotlin">
+  <img src="https://img.shields.io/badge/STATUS-Open%20Source-00FF66?style=for-the-badge&logo=github">
+  <img src="https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge">
+</p>
+
+---
+
+## ⚡ **¿Qué es Signal Radar?**
+Herramienta de orientación de campo desarrollada en **Kotlin** para Android. Diseñada para ofrecer lecturas milimétricas y velocidad visual en entornos exigentes, eliminando interfaces saturadas.
+
+<p align="center">
+  <img src="https://files.catbox.moe/6xhvn6.jpeg" width="70%" alt="Preview 1"/>
+</p>
+
+---
+
+## 🔥 **Características Clave**
+
+* 📌 **Proyección 3D de Waypoints:** Pines elevados con mástil vertical para ubicación instantánea.
+* 📶 **Sensor Barométrico Nativo:** Altitud en tiempo real ultra sensible (`Sensor.TYPE_PRESSURE`).
+* 🔍 **Gestos Táctiles (Pinch-to-Zoom):** Sin botones estorbosos; escala la red interna con los dedos.
+* 📏 **Trazado de Camino Preciso:** Rutas con líneas finas, estilizadas y suavizadas.
+* 📝 **Ficha Técnica en Español:** Datos claros de distancia, rumbo en grados, desnivel y coordenadas.
+
+<p align="center">
+  <img src="https://files.catbox.moe/yc686g.jpeg" width="45%" alt="Sticker 1"/>
+  <img src="https://files.catbox.moe/v7c95w.jpeg" width="45%" alt="Sticker 2"/>
+</p>
+
+---
+
+## 🛠️ **Stack Tecnológico**
+* **Lenguaje:** Kotlin
+* **UI:** Custom Canvas (Renderizado 3D) & ScaleGestureDetector
+* **Base de Datos:** Room Database
+* **Sensores:** Sensor Framework (Barómetro, Acelerómetro, Magnetómetro)
+
+<p align="center">
+  <img src="https://files.catbox.moe/lgb4en.jpeg" width="70%" alt="Preview 2"/>
+</p>
+
+---
+
+## 👨‍💻 **Autoría & Certificación**
+
+Desarrollado con pasión y código abierto por:
+
+> **JAHSEH**  
+> 🌐 **Portfolio:** [devmatrixs.lat](https://devmatrixs.lat)  
+
+<p align="center">
+  <img src="https://files.catbox.moe/5utm3p.jpeg" width="60%" alt="Footer Banner"/>
+</p>
+
+---
+
+## 📄 **Licencia**
+Distribuido bajo la **Licencia MIT**. Siéntete libre de usarlo, modificarlo y mejorarlo.
