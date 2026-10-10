@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">SignalRadar</string>
+    <string name="title_scanner">SignalRadar</string>
+    <string name="subtitle_scanner">Explorador de Señales de Red</string>
+    
+    <!-- Filter tabs -->
+    <string name="tab_wifi">Redes Wi-Fi</string>
+    <string name="tab_bluetooth">Dispositivos Bluetooth</string>
+    <string name="tab_radar">Modo Mapa/Radar</string>
+    <string name="tab_all">Todos</string>
+    
+    <!-- Actions -->
+    <string name="action_scan">Escanear</string>
+    <string name="action_stop">Detener</string>
+    <string name="action_clear">Limpiar</string>
+    <string name="action_grant_permissions">Conceder Permisos</string>
+    
+    <!-- Status -->
+    <string name="status_scanning">Escaneando el entorno…</string>
+    <string name="status_idle">Escaneo en pausa</string>
+    <string name="status_permission_required">Permisos requeridos para escanear señales</string>
+    <string name="status_wifi_disabled">Wi-Fi desactivado en el dispositivo</string>
+    <string name="status_bt_disabled">Bluetooth desactivado en el dispositivo</string>
+    
+    <!-- Device card info -->
+    <string name="label_signal">Señal</string>
+    <string name="label_mac">MAC / BSSID</string>
+    <string name="label_type">Tipo</string>
+    <string name="label_unknown_device">Dispositivo Desconocido</string>
+    <string name="label_unknown_network">Red Oculta</string>
+    <string name="label_frequency">Frecuencia</string>
+    <string name="label_security">Seguridad</string>
+    <string name="label_distance_approx">Distancia est.</string>
+    
+    <!-- Navigation and Map -->
+    <string name="mode_streets">Modo Calles</string>
+    <string name="mode_direct">Línea Directa</string>
+    <string name="nav_target_selected">Objetivo de Navegación</string>
+    <string name="nav_select_target">Toca una señal o selecciónala de la lista para trazar ruta</string>
+    <string name="nav_simulate_step">Avanzar hacia la señal</string>
+    
+    <!-- Empty states -->
+    <string name="empty_wifi_title">No se encontraron redes Wi-Fi</string>
+    <string name="empty_wifi_desc">Presiona \'Escanear\' o asegúrate de que el Wi-Fi y la ubicación estén encendidos.</string>
+    <string name="empty_bt_title">No se encontraron dispositivos Bluetooth</string>
+    <string name="empty_bt_desc">Verifica que el Bluetooth esté activo y que haya dispositivos BLE transmitiendo cerca.</string>
+    <string name="empty_radar_title">Radar a la espera</string>
+    <string name="empty_radar_desc">Inicia el escaneo para visualizar las señales en el sonar.</string>
+</resources>

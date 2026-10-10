@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <!-- Glow halo -->
+    <path
+        android:fillColor="#3300E676"
+        android:pathData="M16,16m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0" />
+    <!-- Outer green circle -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M16,16m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" />
+    <!-- Inner white center -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16,16m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+</vector>

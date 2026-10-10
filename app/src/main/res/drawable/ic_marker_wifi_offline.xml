@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="28dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+    <!-- Outer subtle gray ring -->
+    <path
+        android:strokeColor="#64748B"
+        android:strokeWidth="1.5"
+        android:pathData="M14,14m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+    <!-- Gray pin body -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M14,14m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+    <!-- Darker core -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M14,14m-3.5,0a3.5,3.5 0,1 1,7 0a3.5,3.5 0,1 1,-7 0" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "SignalRadar",
+  "description": "Escáner en tiempo real de redes Wi-Fi y dispositivos Bluetooth BLE con visualización en lista y radar de señal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
